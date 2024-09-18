@@ -25,16 +25,20 @@
             <label for='lname'>Last Name</label>
             <input type="text" id="lname" name="lname" required><br>
         
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-        
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
-        
-            <label for="web">Subscribe to my Wonderful Web:</label>
-            <input type="checkbox" id="web" name="web" value="Yes"><br><br>
-        
-            <input type="submit" value="Submit">
+            <form
+                action="https://formspree.io/f/movaoqwb"
+                method="POST"
+            >
+            <label>
+                Your email:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+            
+            <button type="submit">Send</button>
         </form>        
     </body>
 </html>
