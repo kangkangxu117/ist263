@@ -1,0 +1,80 @@
+/* Body Background and Text */
+body {
+    background-color: #FFF8E1; /* Light Yellow */
+    color: #212121; /* Dark Charcoal */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main Heading */
+h1 {
+    color: #E91E63; /* Vibrant Magenta */
+    text-align: center;
+}
+
+/* Subheadings */
+h2 {
+    color: #E91E63; /* Vibrant Magenta */
+    margin-top: 20px;
+}
+
+/* Paragraph Styling */
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Strong Text */
+strong {
+    color: #FF4081; /* Bright Pink */
+}
+
+/* Hobbies List */
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+/* Image Styling */
+.bio-image {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Horizontal Rule */
+hr {
+    margin: 20px 0;
+    border: 1px solid #FF5252; /* Bright Red */
+}
+
+/* Navigation */
+nav {
+    background-color: #FFEB3B; /* Bright Yellow */
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Navigation Links */
+nav a {
+    color: #009688; /* Bright Teal */
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Hover Effect for Navigation Links */
+nav a:hover {
+    background-color: #FF5252; /* Bright Red */
+    color: white;
+}
+
+/* Footer */
+p:last-child {
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
