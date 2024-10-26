@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../Lab07/styles.css">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .adress, .email, .form, .map {
+            padding: 20px;
+            background-color: #cce5ff;
+            border-radius: 8px;
+        }
+
+        .adress, .map {flex: 2;}
+
+        .email, .form {flex: 1;}
+
+        .map iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> | 
+        <a href="skills.html">Skills</a> | 
+        <a href="contact.html">Contact</a>
+        <h1>My Favorite Fruits</h1>
+    </nav>
+
+    <h2 style="font-size: 24px; font-weight: bold;">Contact</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="adress">
+                <p>Kangkang Xu</p>
+                <p>7900 Green Lakes Rd, Fayetteville, NY 13066</p>
+            </div>
+            <div class="email">
+                <a href="https://www.linkedin.com/in/kangkang-xu0702">My LinkedIn Profile</a><br>
+                <a href="mailto:kxu117@syr.edu">Kangkang Xu Email</a><br>
+                <img src="../images/logo-sized.png" alt="My Linkedin">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="form">
+                <h2>Contact Form</h2>
+                <form action="https://formspree.io/f/movaoqwb" method="POST">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" required><br>
+
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required><br>
+
+                    <label for="email">Your email:</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="message">Your message:</label>
+                    <textarea id="message" name="message" required></textarea><br>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.201255768534!2d-75.97402662345131!3d43.05823459070721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d98e6455738c13%3A0x1c6de89abae65f43!2sGreen%20Lakes%20State%20Park!5e0!3m2!1sen!2sus!4v1726093016071!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
