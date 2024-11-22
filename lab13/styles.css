@@ -160,16 +160,12 @@ a {
     transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transitions */
 }
 
-/* Hover Effect for Links */
-a:hover {
-    text-decoration: underline; /* Underline on hover for emphasis */
-    color: #FFD700; /* Bright Yellow hover effect */
-}
-
 /* Specific Styling for Email and LinkedIn Section */
 .email a {
     color: #FFFFFF; /* White text for email and LinkedIn links */
+    text-decoration: none; /* No underline for default appearance */
     font-weight: bold; /* Make links stand out */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth hover transition */
 }
 
 /* Hover Effect for Email and LinkedIn Links */
