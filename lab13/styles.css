@@ -87,21 +87,33 @@ hr {
     border: 1px solid #0013be; /* Dark Blue */
 }
 
-/* Navigation */
+/* Navigation Styling */
 nav {
-    background-color: #0013be; /* Bright Blue */
-    padding: 10px;
-    margin-bottom: 30px;
+    background-color: #0013be; /* Dark Blue */
+    padding: 15px;
     text-align: center;
 }
 
 /* Navigation Links */
 nav a {
-    color: #FFFFFF; /* White */
-    padding: 10px 15px; /* Added padding for clickable area */
+    color: #FFFFFF; /* White text for high contrast */
     text-decoration: none;
-    border-radius: 5px; /* Rounded edges for buttons */
+    padding: 10px 15px; /* Spacing for clickable area */
+    border-radius: 5px; /* Rounded edges for better design */
+    font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Separator Styling */
+nav span {
+    color: #FFFFFF; /* Match separator color to link text */
+    margin: 0 5px;
+}
+
+/* Hover Effect for Navigation Links */
+nav a:hover {
+    background-color: #FF9800; /* Bright Orange for hover contrast */
+    color: #0013be; /* Dark Blue for text contrast on hover */
 }
 
 /* Hover Effect for Navigation Links */
