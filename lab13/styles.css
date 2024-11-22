@@ -126,7 +126,7 @@ nav a:hover {
 p:last-child {
     text-align: center;
     font-size: 14px;
-    color: #757575; /* Medium Grey */
+    color: #000000; /* Medium Grey */
 }
 
 /* Responsive Navigation */
