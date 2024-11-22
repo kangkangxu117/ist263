@@ -97,15 +97,17 @@ nav {
 
 /* Navigation Links */
 nav a {
-    color: #ffffff; /* White */
-    padding: 10px;
+    color: #FFFFFF; /* White */
+    padding: 10px 15px; /* Added padding for clickable area */
     text-decoration: none;
+    border-radius: 5px; /* Rounded edges for buttons */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
 }
 
 /* Hover Effect for Navigation Links */
 nav a:hover {
-    background-color: #0013be; /* Deep Blue */
-    color: #ffffff; /* White */
+    background-color: #0040FF; /* Brighter Blue for hover */
+    color: #FFD700; /* Bright Yellow for hover contrast */
 }
 
 /* Footer */
