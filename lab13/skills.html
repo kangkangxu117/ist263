@@ -8,21 +8,13 @@
 </head>
 
 <style>
-    body {
-        background-color: #FFFFFF; /* White background for strong contrast */
-        color: #000000; /* Black text for readability */
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 20px;
-    }
-
     .content-container {
         display: flex;
         gap: 20px;
         padding: 20px;
         justify-content: center;
         align-items: center;
-        background-color: #F1F8E9; /* Light green for subtle background */
+        background-color: #f9f9f9;
         border-radius: 10px;
         flex-wrap: wrap; 
     }
@@ -34,60 +26,32 @@
     table {
         border-collapse: collapse;
         width: 100%;
-        background-color: #FFFFFF; /* White for readability */
+        background-color: #fff;
         border-radius: 8px;
         overflow: hidden;
-        border: 2px solid #000000; /* Black border for strong contrast */
     }
 
     th, td {
-        border: 1px solid #000000; /* Black border for readability */
+        border: 1px solid black;
         padding: 10px;
         text-align: left;
     }
 
     th {
-        background-color: #2E7D32; /* Dark Green for strong contrast */
-        color: #FFFFFF; /* White text for readability */
+        background-color: #4CAF50;
+        color: white;
         font-weight: bold;
     }
 
-    .evenrow {
-        background-color: #E8F5E9; /* Very light green for even rows */
-    }
+    .evenrow {background-color: #e9f7fe;}
 
-    h1 {
-        text-align: center;
-        margin-top: 20px;
-        color: #1B5E20; /* Dark Green */
-    }
+    h1 {text-align: center; margin-top: 20px;}
 
-    nav {
-        text-align: center;
-        margin-bottom: 20px;
-    }
+    nav {text-align: center; margin-bottom: 20px;}
 
-    nav a {
-        color: #004D40; /* Teal for contrast */
-        text-decoration: none;
-        padding: 5px 10px;
-    }
+    .image-container {text-align: center;}
 
-    nav a:hover {
-        color: #FFFFFF;
-        background-color: #004D40; /* Teal background for hover effect */
-        border-radius: 5px;
-    }
-
-    .image-container {
-        text-align: center;
-    }
-
-    .image-container img {
-        width: 150px;
-        border-radius: 8px;
-        border: 2px solid #000000; /* Black border for clarity */
-    }
+    .image-container img {width: 150px; border-radius: 8px;}
 
     @media (max-width: 768px) {
         .content-container {
