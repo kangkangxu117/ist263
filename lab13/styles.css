@@ -44,8 +44,9 @@ body {
 
 /* Main Heading */
 h1 {
-    color: #D32F2F; /* Dark Red for strong contrast */
+    color: #4CAF50; /* Green to match table headers */
     text-align: center;
+    margin-top: 20px;
 }
 
 /* Subheadings */
@@ -88,10 +89,64 @@ ul {
     border: 2px solid #000000; /* Add border for better visibility */
 }
 
+.image-container {
+    text-align: center;
+    color: #FFFFFF; /* Ensure text matches the container's dark background */
+}
+
+.image-container img {
+    width: 150px;
+    border-radius: 8px;
+    border: 2px solid #FFFFFF; /* White border for emphasis */
+}
+
 /* Horizontal Rule */
 hr {
     margin: 20px 0;
     border: 1px solid #000000; /* Black */
+}
+
+/* Content Container */
+.content-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121; /* Dark Gray for strong contrast */
+    border-radius: 10px;
+    flex-wrap: wrap;
+    color: #FFFFFF; /* White text for contrast */
+}
+
+.table-container, .image-container {
+    flex: 1;
+}
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #FFFFFF; /* White for table background */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #000000; /* Black borders for strong definition */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50; /* Green for header */
+    color: #FFFFFF; /* White text for header contrast */
+    font-weight: bold;
+}
+
+.evenrow {
+    background-color: #E0F7FA; /* Light Cyan for row contrast */
+    color: #000000; /* Black text for contrast */
 }
 
 /* Navigation */
@@ -103,7 +158,6 @@ nav {
     border-bottom: 3px solid #D32F2F; /* Dark Red border for accent */
 }
 
-/* Navigation Links */
 nav a {
     color: #FFFFFF; /* White for strong contrast on black background */
     padding: 10px 15px;
@@ -113,9 +167,8 @@ nav a {
     transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 
-/* Hover Effect for Navigation Links */
 nav a:hover {
-    background-color: #D32F2F; /* Dark Red background for hover effect */
+    background-color: #4CAF50; /* Green for hover effect */
     color: #FFFFFF; /* Keep text white for contrast */
     border-radius: 5px; /* Rounded corners for visual appeal */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
@@ -128,6 +181,7 @@ p:last-child {
     color: #212121; /* Dark Gray */
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
     .content-container {
         flex-direction: column;
@@ -144,27 +198,22 @@ p:last-child {
     }
 }
 
-/* Responsive Navigation */
 @media (max-width: 768px) {
     nav a {
         display: block;
         width: 100%;
         padding: 10px 0;
     }
-    
+
     nav a + span {
         display: none; /* Hide separator on smaller screens */
     }
-    
-    /* Responsive Image Styling */
+
     .email img {
         max-width: 100%;
         height: auto;
     }
-}
 
-/* Flexbox Adjustments for Mobile */
-@media (max-width: 768px) {
     .row {
         flex-direction: column;
     }
