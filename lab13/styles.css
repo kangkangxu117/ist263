@@ -1,7 +1,7 @@
 /* Body Background and Text */
 body {
-    background-color: #F9FBE7; /* Very Light Green */
-    color: #1B1B1B; /* Almost Black */
+    background-color: #FFFFFF; /* White */
+    color: #121212; /* Almost Black */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
@@ -27,9 +27,9 @@ body {
 /* Contact Page Specific Sections */
 .adress, .email, .form, .map {
     padding: 20px;
-    background-color: #E8F5E9; /* Light Green */
+    background-color: #F5F5F5; /* Very Light Gray */
     border-radius: 8px;
-    color: #1B1B1B; /* Almost Black */
+    color: #121212; /* Almost Black */
 }
 
 .adress, .map {flex: 2;}
@@ -44,13 +44,13 @@ body {
 
 /* Main Heading */
 h1 {
-    color: #2E7D32; /* Dark Green */
+    color: #0D47A1; /* Dark Blue */
     text-align: center;
 }
 
 /* Subheadings */
 h2 {
-    color: #388E3C; /* Medium Green */
+    color: #1976D2; /* Medium Blue */
     margin-top: 20px;
 }
 
@@ -58,12 +58,12 @@ h2 {
 p {
     line-height: 1.6;
     margin-bottom: 20px;
-    color: #1B1B1B; /* Almost Black */
+    color: #121212; /* Almost Black */
 }
 
 /* Strong Text */
 strong {
-    color: #ff0000; /* Vibrant Green */
+    color: #D32F2F; /* Vibrant Red */
 }
 
 /* Hobbies List */
@@ -84,12 +84,12 @@ ul {
 /* Horizontal Rule */
 hr {
     margin: 20px 0;
-    border: 1px solid #2E7D32; /* Dark Green */
+    border: 1px solid #0D47A1; /* Dark Blue */
 }
 
 /* Navigation */
 nav {
-    background-color: #C8E6C9; /* Light Green */
+    background-color: #1E88E5; /* Bright Blue */
     padding: 10px;
     margin-bottom: 30px;
     text-align: center;
@@ -97,22 +97,22 @@ nav {
 
 /* Navigation Links */
 nav a {
-    color: #1B5E20; /* Deep Green */
+    color: #FFFFFF; /* White */
     padding: 10px;
     text-decoration: none;
 }
 
 /* Hover Effect for Navigation Links */
 nav a:hover {
-    background-color: #afccb0; /* Soft Green */
-    color: rgba(0, 0, 0, 0);
+    background-color: #1565C0; /* Deep Blue */
+    color: #FFFFFF; /* White */
 }
 
 /* Footer */
 p:last-child {
     text-align: center;
     font-size: 14px;
-    color: #424242; /* Medium Grey */
+    color: #757575; /* Medium Grey */
 }
 
 /* Responsive Navigation */
