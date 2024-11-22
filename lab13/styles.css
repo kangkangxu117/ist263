@@ -1,7 +1,7 @@
 /* Body Background and Text */
 body {
-    background-color: #FFF8E1; /* Light Yellow */
-    color: #212121; /* Dark Charcoal */
+    background-color: #FFFFFF; /* White for maximum contrast */
+    color: #000000; /* Black for maximum readability */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
@@ -27,7 +27,8 @@ body {
 /* Contact Page Specific Sections */
 .adress, .email, .form, .map {
     padding: 20px;
-    background-color: #cce5ff;
+    background-color: #E3F2FD; /* Light Blue */
+    color: #000000; /* Black for strong contrast */
     border-radius: 8px;
 }
 
@@ -43,13 +44,13 @@ body {
 
 /* Main Heading */
 h1 {
-    color: #E91E63; /* Vibrant Magenta */
+    color: #D32F2F; /* Dark Red for strong contrast */
     text-align: center;
 }
 
 /* Subheadings */
 h2 {
-    color: #E91E63; /* Vibrant Magenta */
+    color: #D32F2F; /* Dark Red for strong contrast */
     margin-top: 20px;
 }
 
@@ -57,17 +58,19 @@ h2 {
 p {
     line-height: 1.6;
     margin-bottom: 20px;
+    color: #212121; /* Very dark gray for easy reading */
 }
 
 /* Strong Text */
 strong {
-    color: #FF4081; /* Bright Pink */
+    color: #BF360C; /* Dark Orange */
 }
 
 /* Hobbies List */
 ul {
     list-style-type: disc;
     padding-left: 40px;
+    color: #212121;
 }
 
 /* Image Styling */
@@ -77,17 +80,18 @@ ul {
     width: 150px;
     height: auto;
     border-radius: 50%;
+    border: 2px solid #000000; /* Add border for better visibility */
 }
 
 /* Horizontal Rule */
 hr {
     margin: 20px 0;
-    border: 1px solid #FF5252; /* Bright Red */
+    border: 1px solid #000000; /* Black */
 }
 
 /* Navigation */
 nav {
-    background-color: #FFEB3B; /* Bright Yellow */
+    background-color: #D32F2F; /* Dark Red */
     padding: 10px;
     margin-bottom: 30px;
     text-align: center;
@@ -95,22 +99,22 @@ nav {
 
 /* Navigation Links */
 nav a {
-    color: #009688; /* Bright Teal */
+    color: #FFFFFF; /* White for strong contrast */
     padding: 10px;
     text-decoration: none;
 }
 
 /* Hover Effect for Navigation Links */
 nav a:hover {
-    background-color: #FF5252; /* Bright Red */
-    color: white;
+    background-color: #BF360C; /* Dark Orange */
+    color: #FFFFFF;
 }
 
 /* Footer */
 p:last-child {
     text-align: center;
     font-size: 14px;
-    color: #666666;
+    color: #212121; /* Dark Gray */
 }
 
 @media (max-width: 768px) {
