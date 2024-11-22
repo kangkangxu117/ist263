@@ -50,7 +50,7 @@ h1 {
 
 /* Subheadings */
 h2 {
-    color: #1976D2; /* Medium Blue */
+    color: #003cff; /* Medium Blue */
     margin-top: 20px;
 }
 
@@ -89,7 +89,7 @@ hr {
 
 /* Navigation */
 nav {
-    background-color: #1E88E5; /* Bright Blue */
+    background-color: #003cff; /* Bright Blue */
     padding: 10px;
     margin-bottom: 30px;
     text-align: center;
@@ -104,7 +104,7 @@ nav a {
 
 /* Hover Effect for Navigation Links */
 nav a:hover {
-    background-color: #1565C0; /* Deep Blue */
+    background-color: #003cff; /* Deep Blue */
     color: #ffffff; /* White */
 }
 
