@@ -1,7 +1,7 @@
 /* Body Background and Text */
 body {
-    background-color: #FFFFFF; /* White */
-    color: #121212; /* Almost Black */
+    background-color: #000000; /* Black */
+    color: #FFFFFF; /* White */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
@@ -15,6 +15,7 @@ body {
     padding: 20px;
 }
 
+/* Rows */
 .row {
     display: flex;
     justify-content: space-between;
@@ -22,19 +23,26 @@ body {
     padding: 20px;
     border-radius: 10px;
     flex-wrap: wrap; /* Makes items wrap on smaller screens */
+    background-color: #1A1A1A; /* Dark Gray for contrast */
+    color: #FFFFFF; /* White text */
 }
 
-/* Contact Page Specific Sections */
+/* Specific Sections */
 .adress, .email, .form, .map {
     padding: 20px;
-    background-color: #F5F5F5; /* Very Light Gray */
+    background-color: #2C2C2C; /* Darker Gray for contrast */
     border-radius: 8px;
-    color: #121212; /* Almost Black */
+    color: #FFFFFF; /* White text for clarity */
 }
 
-.adress, .map {flex: 2;}
-.email, .form {flex: 1;}
+.adress, .map {
+    flex: 2;
+}
+.email, .form {
+    flex: 1;
+}
 
+/* Map iframe Styling */
 .map iframe {
     width: 100%;
     height: 100%;
@@ -44,13 +52,13 @@ body {
 
 /* Main Heading */
 h1 {
-    color: #0013be; /* Dark Blue */
+    color: #FFD700; /* Bright Yellow */
     text-align: center;
 }
 
 /* Subheadings */
 h2 {
-    color: #0013be; /* Medium Blue */
+    color: #FF4500; /* Bright Orange */
     margin-top: 20px;
 }
 
@@ -58,12 +66,12 @@ h2 {
 p {
     line-height: 1.6;
     margin-bottom: 20px;
-    color: #121212; /* Almost Black */
+    color: #FFFFFF; /* White text */
 }
 
 /* Strong Text */
 strong {
-    color: #D32F2F; /* Vibrant Red */
+    color: #FF0000; /* Bright Red */
 }
 
 /* Hobbies List */
@@ -79,54 +87,50 @@ ul {
     width: 150px;
     height: auto;
     border-radius: 50%;
+    border: 3px solid #FFD700; /* Bright Yellow Border */
 }
 
 /* Horizontal Rule */
 hr {
     margin: 20px 0;
-    border: 1px solid #0013be; /* Dark Blue */
+    border: 1px solid #FFD700; /* Bright Yellow */
 }
 
 /* Navigation Styling */
 nav {
-    background-color: #000000; /* Dark Blue */
+    background-color: #1A1A1A; /* Dark Gray */
     padding: 15px;
     text-align: center;
+    border-bottom: 3px solid #FFD700; /* Bright Yellow Divider */
 }
 
 /* Navigation Links */
 nav a {
-    color: #FFFFFF; /* White text for high contrast */
+    color: #FFFFFF; /* White text */
     text-decoration: none;
     padding: 10px 15px; /* Spacing for clickable area */
-    border-radius: 5px; /* Rounded edges for better design */
+    border-radius: 5px; /* Rounded edges */
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
 }
 
 /* Separator Styling */
 nav span {
-    color: #FFFFFF; /* Match separator color to link text */
+    color: #FFD700; /* Bright Yellow Separator */
     margin: 0 5px;
 }
 
 /* Hover Effect for Navigation Links */
 nav a:hover {
-    background-color: #FF9800; /* Bright Orange for hover contrast */
-    color: #0013be; /* Dark Blue for text contrast on hover */
-}
-
-/* Hover Effect for Navigation Links */
-nav a:hover {
-    background-color: #0040FF; /* Brighter Blue for hover */
-    color: #FFD700; /* Bright Yellow for hover contrast */
+    background-color: #FFD700; /* Bright Yellow */
+    color: #000000; /* Black Text */
 }
 
 /* Footer */
 p:last-child {
     text-align: center;
     font-size: 14px;
-    color: #000000; /* Medium Grey */
+    color: #FFD700; /* Bright Yellow */
 }
 
 /* Responsive Navigation */
