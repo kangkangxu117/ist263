@@ -63,7 +63,7 @@ p {
 
 /* Strong Text */
 strong {
-    color: #4CAF50; /* Vibrant Green */
+    color: #ff0000; /* Vibrant Green */
 }
 
 /* Hobbies List */
@@ -104,8 +104,8 @@ nav a {
 
 /* Hover Effect for Navigation Links */
 nav a:hover {
-    background-color: #81C784; /* Soft Green */
-    color: white;
+    background-color: #afccb0; /* Soft Green */
+    color: rgba(0, 0, 0, 0);
 }
 
 /* Footer */
