@@ -1,13 +1,85 @@
-/* Body Background and Text */
+/* General Body Styling */
 body {
-    background-color: #000000; /* Black */
-    color: #FFFFFF; /* White */
+    background-color: #000000; /* Black background for strong contrast */
+    color: #FFFFFF; /* White text for readability */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
 }
 
-/* Container Styling */
+/* Navigation Bar */
+nav {
+    background-color: #1A1A1A; /* Dark Gray background for navigation */
+    padding: 15px;
+    text-align: center;
+    border-bottom: 3px solid #FFD700; /* Bright Yellow divider */
+}
+
+/* Navigation Links */
+nav a {
+    color: #FFFFFF; /* White text for contrast */
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Navigation Link Separator */
+nav span {
+    color: #FFD700; /* Bright Yellow separator */
+    margin: 0 5px;
+}
+
+/* Navigation Hover Effect */
+nav a:hover {
+    background-color: #FFD700; /* Bright Yellow hover background */
+    color: #000000; /* Black text on hover */
+}
+
+/* Header Image */
+header img, .bio-image {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #FFD700; /* Bright Yellow border */
+}
+
+/* Main Heading */
+h1 {
+    color: #FFD700; /* Bright Yellow for emphasis */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Subheadings */
+h2 {
+    color: #FF4500; /* Bright Orange for secondary headings */
+    margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #FFFFFF; /* White text */
+}
+
+/* Strong Text */
+strong {
+    color: #FF0000; /* Bright Red to highlight important text */
+}
+
+/* Hobbies List */
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    color: #FFFFFF; /* White text */
+}
+
+/* Containers and Rows */
 .container {
     display: flex;
     flex-direction: column;
@@ -15,7 +87,6 @@ body {
     padding: 20px;
 }
 
-/* Rows */
 .row {
     display: flex;
     justify-content: space-between;
@@ -38,6 +109,7 @@ body {
 .adress, .map {
     flex: 2;
 }
+
 .email, .form {
     flex: 1;
 }
@@ -50,111 +122,71 @@ body {
     border-radius: 8px;
 }
 
-/* Main Heading */
-h1 {
-    color: #FFD700; /* Bright Yellow */
-    text-align: center;
-}
-
-/* Subheadings */
-h2 {
-    color: #FF4500; /* Bright Orange */
-    margin-top: 20px;
-}
-
-/* Paragraph Styling */
-p {
-    line-height: 1.6;
-    margin-bottom: 20px;
+/* Table Styling */
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+    background-color: #1A1A1A; /* Dark Gray background */
     color: #FFFFFF; /* White text */
+    border: 1px solid #FFD700; /* Bright Yellow border */
 }
 
-/* Strong Text */
-strong {
-    color: #FF0000; /* Bright Red */
+.table-container th,
+.table-container td {
+    padding: 10px 15px;
+    border: 1px solid #FFD700; /* Bright Yellow border */
 }
 
-/* Hobbies List */
-ul {
-    list-style-type: disc;
-    padding-left: 40px;
+.table-container th {
+    background-color: #FFD700; /* Bright Yellow background for headers */
+    color: #000000; /* Black text for strong contrast */
 }
 
-/* Image Styling */
-.bio-image {
-    display: block;
-    margin: 0 auto;
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-    border: 3px solid #FFD700; /* Bright Yellow Border */
+.table-container tr:nth-child(even) {
+    background-color: #2C2C2C; /* Slightly lighter gray for even rows */
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #FFD700; /* Bright Yellow divider */
+    text-align: center;
+    color: #FFFFFF; /* White text */
 }
 
 /* Horizontal Rule */
 hr {
+    border: 1px solid #FFD700; /* Bright Yellow for strong visibility */
     margin: 20px 0;
-    border: 1px solid #FFD700; /* Bright Yellow */
 }
 
-/* Navigation Styling */
-nav {
-    background-color: #1A1A1A; /* Dark Gray */
-    padding: 15px;
-    text-align: center;
-    border-bottom: 3px solid #FFD700; /* Bright Yellow Divider */
-}
-
-/* Navigation Links */
-nav a {
-    color: #FFFFFF; /* White text */
-    text-decoration: none;
-    padding: 10px 15px; /* Spacing for clickable area */
-    border-radius: 5px; /* Rounded edges */
-    font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
-}
-
-/* Separator Styling */
-nav span {
-    color: #FFD700; /* Bright Yellow Separator */
-    margin: 0 5px;
-}
-
-/* Hover Effect for Navigation Links */
-nav a:hover {
-    background-color: #FFD700; /* Bright Yellow */
-    color: #000000; /* Black Text */
-}
-
-/* Footer */
-p:last-child {
-    text-align: center;
+/* Footer Quote */
+footer p:last-child {
     font-size: 14px;
-    color: #FFD700; /* Bright Yellow */
+    font-style: italic;
+    color: #FFD700; /* Bright Yellow for the quote */
 }
 
-/* Responsive Navigation */
+/* Responsive Design */
 @media (max-width: 768px) {
     nav a {
         display: block;
-        width: 100%;
         padding: 10px 0;
     }
-    
-    nav a + span {
+
+    nav span {
         display: none; /* Hide separator on smaller screens */
     }
-    
-    /* Responsive Image Styling */
-    .email img {
-        max-width: 100%;
-        height: auto;
-    }
-}
 
-/* Flexbox Adjustments for Mobile */
-@media (max-width: 768px) {
     .row {
         flex-direction: column;
+    }
+
+    header img, .bio-image {
+        width: 120px; /* Adjust image size for smaller screens */
     }
 }
