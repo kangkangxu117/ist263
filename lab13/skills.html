@@ -5,71 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favorite Fruits</title>
     <link rel="stylesheet" href="../Lab07/styles.css">
-</head>
-<style>
-    .content-container {
-        display: flex;
-        gap: 20px;
-        padding: 20px;
-        justify-content: center;
-        align-items: center;
-        background-color: #f9f9f9;
-        border-radius: 10px;
-        flex-wrap: wrap; 
-    }
 
-    .table-container, .image-container {
-        flex: 1;
-    }
+    <style>
+        /* Body Styling */
+        body {
+            background-color: #000000; /* Black background for strong contrast */
+            color: #FFFFFF; /* White text for readability */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
 
-    table {
-        border-collapse: collapse;
-        width: 100%;
-        background-color: #fff;
-        border-radius: 8px;
-        overflow: hidden;
-    }
+        /* Navigation */
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: #D32F2F; /* Red for strong visual impact */
+            padding: 10px;
+            border-radius: 5px;
+        }
 
-    th, td {
-        border: 1px solid black;
-        padding: 10px;
-        text-align: left;
-    }
+        nav a {
+            color: #FFFFFF; /* White text for contrast */
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
 
-    th {
-        background-color: #4CAF50;
-        color: white;
-        font-weight: bold;
-    }
+        nav a:hover {
+            background-color: #FFFFFF; /* White background for hover effect */
+            color: #D32F2F; /* Red text for contrast */
+        }
 
-    .evenrow {background-color: #e9f7fe;}
+        /* Heading Styling */
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #D32F2F; /* Red for standout text */
+        }
 
-    h1 {text-align: center; margin-top: 20px;}
-
-    nav {text-align: center; margin-bottom: 20px;}
-
-    .image-container {text-align: center;}
-
-    .image-container img {width: 150px; border-radius: 8px;}
-
-    @media (max-width: 768px) {
+        /* Content Container */
         .content-container {
-            flex-direction: column;
-            gap: 10px;
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+            background-color: #212121; /* Dark Gray for contrast with text */
+            border-radius: 10px;
+            flex-wrap: wrap;
+        }
+
+        .table-container, .image-container {
+            flex: 1;
+        }
+
+        /* Table Styling */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: #FFFFFF; /* White for table background */
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            border: 1px solid #000000; /* Black borders for strong definition */
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #D32F2F; /* Red for header background */
+            color: #FFFFFF; /* White text for contrast */
+            font-weight: bold;
+        }
+
+        .evenrow {
+            background-color: #F5F5F5; /* Light gray for row contrast */
+            color: #000000; /* Black text for readability */
+        }
+
+        .oddrow {
+            background-color: #FFFFFF; /* White for alternate rows */
+            color: #000000; /* Black text */
+        }
+
+        /* Image Styling */
+        .image-container {
+            text-align: center;
         }
 
         .image-container img {
-            max-width: 100%;
-            height: auto;
+            width: 150px;
+            border-radius: 8px;
+            border: 2px solid #D32F2F; /* Red border for emphasis */
         }
 
-        table, th, td {
-            font-size: 14px;
-        }
-    }
-</style>
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .content-container {
+                flex-direction: column;
+                gap: 10px;
+            }
 
-<body font-size: 1rem;>
+            .image-container img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            table, th, td {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
     <nav>
         <a href="index.html">Home</a> <span>|</span> 
         <a href="skills.html">Skills</a> <span>|</span> 
@@ -92,7 +147,7 @@
                     <td>10</td>
                     <td>Juicy, sweet</td>
                 </tr>
-                <tr>
+                <tr class="oddrow">
                     <td>Apple</td>
                     <td>7</td>
                     <td>I love apple pie</td>
@@ -102,7 +157,7 @@
                     <td>5</td>
                     <td>Sweet, toothache when eaten too much</td>
                 </tr>
-                <tr>
+                <tr class="oddrow">
                     <td>Grape</td>
                     <td>6</td>
                     <td>I like sweet grapes</td>
@@ -112,7 +167,7 @@
                     <td>5</td>
                     <td>I like pear juice</td>
                 </tr>
-                <tr>
+                <tr class="oddrow">
                     <td>Strawberry</td>
                     <td>8</td>
                     <td>Sour and sweet</td>
@@ -122,7 +177,7 @@
                     <td>5</td>
                     <td>Forgot the flavor</td>
                 </tr>
-                <tr>
+                <tr class="oddrow">
                     <td>Blueberry</td>
                     <td>5</td>
                     <td>Most blueberries are sour</td>
@@ -132,7 +187,7 @@
                     <td>5</td>
                     <td>I like lemonade</td>
                 </tr>
-                <tr>
+                <tr class="oddrow">
                     <td>Avocado</td>
                     <td>2</td>
                     <td>Only in salad</td>
