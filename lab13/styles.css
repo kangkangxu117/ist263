@@ -153,6 +153,31 @@ ul {
     align-self: flex-start;
 }
 
+/* General Styling for Links */
+a {
+    color: #FFFFFF; /* Default white text for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover Effect for Links */
+a:hover {
+    text-decoration: underline; /* Underline on hover for emphasis */
+    color: #FFD700; /* Bright Yellow hover effect */
+}
+
+/* Specific Styling for Email and LinkedIn Section */
+.email a {
+    color: #FFFFFF; /* White text for email and LinkedIn links */
+    font-weight: bold; /* Make links stand out */
+}
+
+/* Hover Effect for Email and LinkedIn Links */
+.email a:hover {
+    color: #FFD700; /* Bright Yellow hover effect for better contrast */
+    text-decoration: underline; /* Add underline on hover */
+}
+
 /* Map Styling */
 .map iframe {
     width: 100%;
