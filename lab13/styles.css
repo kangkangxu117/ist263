@@ -1,7 +1,7 @@
 /* Body Background and Text */
 body {
-    background-color: #FFF8E1; /* Light Yellow */
-    color: #212121; /* Dark Charcoal */
+    background-color: #F9FBE7; /* Very Light Green */
+    color: #1B1B1B; /* Almost Black */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
@@ -27,8 +27,9 @@ body {
 /* Contact Page Specific Sections */
 .adress, .email, .form, .map {
     padding: 20px;
-    background-color: #cce5ff;
+    background-color: #E8F5E9; /* Light Green */
     border-radius: 8px;
+    color: #1B1B1B; /* Almost Black */
 }
 
 .adress, .map {flex: 2;}
@@ -43,13 +44,13 @@ body {
 
 /* Main Heading */
 h1 {
-    color: #E91E63; /* Vibrant Magenta */
+    color: #2E7D32; /* Dark Green */
     text-align: center;
 }
 
 /* Subheadings */
 h2 {
-    color: #E91E63; /* Vibrant Magenta */
+    color: #388E3C; /* Medium Green */
     margin-top: 20px;
 }
 
@@ -57,11 +58,12 @@ h2 {
 p {
     line-height: 1.6;
     margin-bottom: 20px;
+    color: #1B1B1B; /* Almost Black */
 }
 
 /* Strong Text */
 strong {
-    color: #FF4081; /* Bright Pink */
+    color: #4CAF50; /* Vibrant Green */
 }
 
 /* Hobbies List */
@@ -82,12 +84,12 @@ ul {
 /* Horizontal Rule */
 hr {
     margin: 20px 0;
-    border: 1px solid #FF5252; /* Bright Red */
+    border: 1px solid #2E7D32; /* Dark Green */
 }
 
 /* Navigation */
 nav {
-    background-color: #FFEB3B; /* Bright Yellow */
+    background-color: #C8E6C9; /* Light Green */
     padding: 10px;
     margin-bottom: 30px;
     text-align: center;
@@ -95,14 +97,14 @@ nav {
 
 /* Navigation Links */
 nav a {
-    color: #009688; /* Bright Teal */
+    color: #1B5E20; /* Deep Green */
     padding: 10px;
     text-decoration: none;
 }
 
 /* Hover Effect for Navigation Links */
 nav a:hover {
-    background-color: #FF5252; /* Bright Red */
+    background-color: #81C784; /* Soft Green */
     color: white;
 }
 
@@ -110,7 +112,7 @@ nav a:hover {
 p:last-child {
     text-align: center;
     font-size: 14px;
-    color: #666666;
+    color: #424242; /* Medium Grey */
 }
 
 /* Responsive Navigation */
