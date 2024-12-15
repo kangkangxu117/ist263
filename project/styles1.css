@@ -7,6 +7,7 @@ body {
     color: #333;
 }
 
+/* Header */
 header {
     background-color: #fff;
     padding: 20px;
@@ -17,6 +18,7 @@ header {
 header h1 {
     font-size: 28px;
     margin: 0;
+    color: #222; /* Darker color for better contrast */
 }
 
 nav ul {
@@ -34,7 +36,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #007BFF;
+    color: #0056B3; /* Darker blue for improved contrast */
     font-weight: bold;
     padding: 5px 10px;
     border-radius: 5px;
@@ -42,10 +44,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #007BFF;
+    background-color: #0056B3;
     color: #fff;
 }
 
+/* Main Content */
 main {
     max-width: 1200px;
     margin: 40px auto;
@@ -61,7 +64,7 @@ section {
 
 section h2 {
     font-size: 24px;
-    color: #333;
+    color: #222; /* Darker gray for headings */
     text-align: center;
     margin-bottom: 30px;
 }
@@ -83,7 +86,7 @@ article {
 
 article h3 {
     font-size: 18px;
-    color: #333;
+    color: #222; /* Improved heading contrast */
     margin-bottom: 15px;
 }
 
@@ -98,10 +101,11 @@ article img {
 
 article p {
     font-size: 14px;
-    color: #666;
+    color: #555; /* Improved text contrast */
     line-height: 1.6;
 }
 
+/* Footer */
 footer {
     background-color: #222;
     color: #bbb;
@@ -110,6 +114,16 @@ footer {
     margin-top: 20px;
 }
 
+footer a {
+    color: #bbb;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Media Query for Small Screens */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
