@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -18,7 +19,7 @@ header {
 header h1 {
     font-size: 28px;
     margin: 0;
-    color: #222; /* Darker color for better contrast */
+    color: #111; /* Improved dark color for contrast */
 }
 
 nav ul {
@@ -36,16 +37,15 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #003366; /* Darker blue for high contrast */
-    /* Darker blue for improved contrast */
-    font-weight: 00264dbold;
+    color: #003366; /* High contrast dark blue */
+    font-weight: bold;
     padding: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #003366; /* Darker blue for high contrast */
+    background-color: #003366; /* High contrast background */
     color: #fff;
 }
 
@@ -65,7 +65,7 @@ section {
 
 section h2 {
     font-size: 24px;
-    color: #222; /* Darker gray for headings */
+    color: #111; /* Improved contrast */
     text-align: center;
     margin-bottom: 30px;
 }
@@ -87,7 +87,7 @@ article {
 
 article h3 {
     font-size: 18px;
-    color: #222; /* Improved heading contrast */
+    color: #111; /* Darkened heading for better readability */
     margin-bottom: 15px;
 }
 
@@ -102,22 +102,23 @@ article img {
 
 article p {
     font-size: 14px;
-    color: #555; /* Improved text contrast */
+    color: #444; /* Slightly darker for improved contrast */
     line-height: 1.6;
 }
 
 /* Footer */
 footer {
     background-color: #222;
-    color: #bbb;
+    color: #ddd; /* Lighter text color for improved readability */
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
 }
 
 footer a {
-    color: #bbb;
+    color: #ddd;
     text-decoration: underline;
+    transition: color 0.3s;
 }
 
 footer a:hover {
