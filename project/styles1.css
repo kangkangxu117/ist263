@@ -36,15 +36,16 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #00264d; /* Darker blue for improved contrast */
-    font-weight: bold;
+    color: #003366; /* Darker blue for high contrast */
+    /* Darker blue for improved contrast */
+    font-weight: 00264dbold;
     padding: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #00264d;
+    background-color: #003366; /* Darker blue for high contrast */
     color: #fff;
 }
 
